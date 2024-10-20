@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTABO Errand Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>OTABO ERRAND SERVICE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-section">
+            <h2>Your Trusted Partner for Every Errand</h2>
+            <p>Fast, reliable, and convenient errand services at your fingertips.</p>
+            <a href="#contact" class="cta-button">Book an Errand</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>Cleaning Services</h3>
+                <p>Professional cleaning for homes and offices.</p>
+            </div>
+            <div class="service">
+                <h3>Errand Running</h3>
+                <p>Personalized errand services to save you time.</p>
+            </div>
+            <div class="service">
+                <h3>Delivery Services</h3>
+                <p>Fast and secure delivery across town.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About OTABO Errand Service</h2>
+        <p>At OTABO Errand Service, we pride ourselves on delivering the best errand and cleaning services to meet your everyday needs. Our experienced team is committed to making your life easier by taking care of those tasks that you just don’t have time for.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 OTABO Errand Service. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
